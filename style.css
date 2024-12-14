@@ -1,0 +1,459 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+}
+/* navbar1 */
+.navbar{
+    border-bottom: 1px solid rgb(187, 177, 177);
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    z-index: 3;
+}
+.leftnav img{
+    cursor: pointer;
+}
+.leftnav{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 6px;
+    width: 600px;
+}
+.leftnav button{
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    background-color: white;
+    align-items: center;
+    margin-left: 25px;
+    width: 500px;
+    border: 1px solid rgb(187, 177, 177);
+    border-radius: 5px;
+padding-left: 3px;
+}
+.leftnav img{
+    padding-left: 3px;
+}
+.leftnav input{
+    width: 360px;
+    height: 45px;
+    border: none;
+    outline: none;
+    color: rgb(86, 75, 75);
+    padding: 5px;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    font-size: 14.5px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-align: left;
+}
+.leftnav input:focus{
+   border: none;
+   outline: none;
+}
+
+.middlenav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 62px;
+}
+.middlenav p{
+    padding-left: 12px;
+    padding-right: 16px;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-align: left;
+    cursor: pointer;
+}
+.rightnav{
+    display: flex;
+    justify-items: end;
+    align-items: center;
+}
+.rightnav .user{
+    padding-left: 50px;
+    cursor: pointer;
+}
+.rightnav .cart{
+    padding-left: 30px;
+    cursor: pointer;
+}
+/* navbar2 */
+.navbar2{
+    border-bottom: 1px solid rgb(187, 177, 177);
+    height: 54px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    top: 75px;
+    left: 0px;
+    background-color: white;
+    z-index: 2;
+} 
+.navbar2 a{
+    text-decoration: none;
+    display: flex;
+    align-self: center;
+    color: rgb(97, 89, 89);
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    font-size: 17px;
+    font-weight: 500;
+}
+/* main */
+main{
+    position: absolute;
+    top: 135px;
+    z-index: 1;
+}
+/* section1 */
+.sec1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 52px;
+    margin-left: 120px;
+    
+}
+.part1{
+    height: 350px;
+    width: 580px;
+    background-color: #f8f8ff;
+}
+.part2{
+    height: 350px;
+    width: 530px;
+    background-color: red
+}
+.head1 {
+    color: rgb(53, 53, 67);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 52px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 43px;
+    margin-left: 50px;
+}
+.options{
+    display: flex;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    width: 84%;
+    margin-top: 26px;
+    margin-left: 50px;
+    padding: 8px 0px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: space-evenly;
+}
+.free{
+    display: flex;
+    align-items: center;
+}
+.cash{
+    display: flex;
+    align-items: center;
+}
+.easy{
+    display: flex;
+    align-items: center;
+}
+.download{
+    display: flex;
+    width: 55%;
+    margin-top: 26px;
+    margin-left: 50px;
+}
+.download button{
+    background-color: #9f2089;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    vertical-align: middle;
+    font-size: 17.4px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding-left: 40px;
+    padding-top: 9px ;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+.download button p{
+    padding-left: 8px;
+}
+/* section2 */
+.sec2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 48px 5px 42px 5px;
+        width: 98vw;
+    }
+    .line {
+        flex: 1;
+        height: 1px;
+        background-color: #aaa; 
+        margin: 0 10px;
+    }
+
+    .heading {
+        font-size: 36px;
+        font-weight: bold;
+        color: #333; 
+    }
+    /* section3 */
+    .sec3{
+        border: none;
+        height: 556px;
+        width: 82%;
+        margin-bottom: 60px;
+        margin-left: 120px;
+        background-image: url(https://images.meesho.com/images/marketing/1726468570178_1200.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-evenly;
+    }
+    .sec3 button{
+        cursor: pointer;
+    }
+    .box1{
+        /* border: 2px solid black; */
+        height: 430px;
+        width: 38%;
+        margin-bottom: 40px;
+    }
+    .box2{
+        /* border: 2px solid black; */
+        height: 290px;
+        width: 28%;
+        border-radius: 7px;
+        margin-bottom: 40px;
+    }
+    .box3{
+        /* border: 2px solid black; */
+        height: 290px;
+        width: 28%;
+        border-radius: 7px;
+        margin-bottom: 40px;
+    }
+    /* section4 */
+    .sec4{
+        border: none;
+        height: 556px;
+        width: 82%;
+        margin-bottom: 60px;
+        margin-left: 120px;
+        background-image: url(https://images.meesho.com/images/marketing/1726468630909_1200.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .portion1{
+        margin-left: 110px;
+        cursor: pointer;
+    }
+    .portion2{
+        display:flex;
+        margin-left: 110px ;
+        cursor: pointer;
+    }
+    .block1{
+        margin-right: 20px;
+    }
+    .block2{
+        margin-right: 20px;
+    }
+    .block3{
+        margin-right: 20px;
+    }
+   /* section5 */
+    .sec5{
+        border: none;
+        height: 556px;
+        width: 82%;
+        margin-bottom: 60px;
+        margin-left: 120px;
+        background-image: url(https://images.meesho.com/images/marketing/1726468665881_1200.webp
+        );
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .portion11{
+        margin-left: 110px;
+        cursor: pointer;
+    }
+    .portion22{
+        display:flex;
+        margin-left: 110px ;
+        cursor: pointer;
+    }
+    .block11{
+        margin-right: 20px;
+    }
+    .block22{
+        margin-right: 20px;
+    }
+    .block33{
+        margin-right: 20px;
+    }
+/* section6 */
+.sec6{
+    border: none;
+    height: 556px;
+    width: 82%;
+    margin-bottom: 60px;
+    margin-left: 120px;
+    background-image: url(https://images.meesho.com/images/pow/downloadBannerDesktop_1050.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    align-items: flex-end;
+}
+.sec6block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 30px;
+    line-height: 1.2;
+    letter-spacing: 0.2px;
+}
+.heading1{
+    width: 50%;
+    font-size: 44px;
+    color: #b64cab;
+    
+}
+.heading2{
+    width: 50%;
+    font-size: 44px;
+    padding-left: 50px;
+    color: #b64cab;
+}
+.heading3{
+    width: 55%;
+    font-size: 44px;
+    color: #b64cab; 
+    padding-left: 9px;
+    padding-bottom: 55px;
+}
+.buttons{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 33%;
+    height: 80px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.sec7{
+    border: none;
+    height: 320px;
+    width: 82%;
+    margin-bottom: 60px;
+    margin-left: 120px;
+    background-image: url(https://images.meesho.com/images/pow/supplyBannerDesktop_1106.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    color: white;
+    padding-top: 45px;
+    padding-left: 60px;
+    cursor: pointer;
+}
+.sec7heading{
+    padding-bottom: 21px;
+}
+.sec7para{
+    padding-bottom: 5px;
+}
+.sec7but{
+    text-align: center;
+}
+.sec7list{
+    /* border: 2px solid white; */
+    height: 40px;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding-top: 50px;
+}
+span1{
+    font-size: 22px;
+    padding-left: 10px;
+    padding-right: 12px;
+}
+.sec7but{
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 40px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+    color: #9f2089;
+}
+ /* footer*/
+ /* .footer{ 
+    border: 1px solid black;
+    height: 310px;
+    margin-bottom: 100px;
+    background-color: rgb(198, 207, 210);
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .fpart1{
+    border: 1px solid black;
+    height: 290px; 
+    width: 25vw;
+ }
+ .fpart2{
+    border: 1px solid black;
+    height: 290px;
+    width: 10vw; 
+ }
+ .fpart3{
+    border: 1px solid black;
+    height: 290px; 
+    width: 10vw;
+ }
+ .fpart4{
+    border: 1px solid black;
+    height: 290px; 
+    width: 18vw;
+ }
+ .fpart5{
+    border: 1px solid black;
+    height: 290px;
+    width: 18vw; 
+  } */
